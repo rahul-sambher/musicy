@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard events in java script</title>
+</head>
+<body>
+    <div class="row">
+        <input type="password" name="" id="pass">
+        <input type="password" name="" id="cpass" onkeyup="f()">
+        <span id="res"></span>
+    </div>
+</body>
+<script>
+    function f(){
+        var p=document.getElementById('pass').value;
+        var cp=document.getElementById('cpass').value;
+
+        if(p==cp){
+            document.getElementById('res').innerHTML='password match';
+            document.getElementById('res').style.color="green";
+        }else{
+            document.getElementById('res').innerHTML='password do not match';
+            document.getElementById('res').style.color='red';
+        }
+    }
+</script>
+</html>

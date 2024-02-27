@@ -1,0 +1,51 @@
+#firstrow{
+    background-image: url('images/bg2.jpg');
+    height: 400px;
+    width: 100%;
+}
+#logo{
+    padding-left: 150px;
+}
+.nav a{
+    color: white;
+}
+.nav a:hover{
+    color: orange;
+}
+#contactbox{
+    height: 200px;
+    margin: auto;
+    margin-top: 250px;
+    font-weight: bold;
+}
+#contactbox span{
+    color: orange;
+}
+#img1{
+    margin-top: 240px;
+}
+#aboutus{
+    margin-top: 200px;
+    font-weight: bold;
+}
+#fifteenrow{
+    padding: 20px;
+}
+#footerlink a{
+    color: white;
+    text-decoration: none;
+}
+#fifteenrow div p:hover{
+    color: orange;
+}
+#footerlink a:hover{
+    color: orange;
+}
+hr{
+    color: orange;
+    width: 50%;
+}
+#fourteenrow{
+    margin: 100px;
+    height: 400px;
+}

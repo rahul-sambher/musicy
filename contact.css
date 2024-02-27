@@ -1,0 +1,68 @@
+#firstrow{
+    background-image: url('images/bg2.jpg');
+    height: 400px;
+    width: 100%;
+}
+#logo{
+    padding-left: 150px;
+}
+.nav a{
+    color: white;
+}
+.nav a:hover{
+    color: orange;
+}
+#contactbox{
+    height: 200px;
+    margin: auto;
+    margin-top: 250px;
+    font-weight: bold;
+}
+#contactbox span{
+    color: orange;
+}
+#formgrp1 span{
+    color: orange;
+}
+#formgrp2{
+    margin-top: 87px;
+}
+#formgrp2 span{
+    color: orange;
+}
+#thirdrow span{
+    color: orange;
+}
+#fourthrow button{
+    width: 100%;
+}
+.form-group label{
+    font-weight: bolder;
+}
+#form{
+    margin-top: 100px;
+}
+#contactif{
+    margin-top: 150px;
+}
+#fifteenrow{
+    padding: 20px;
+}
+#footerlink a{
+    color: white;
+    text-decoration: none;
+}
+#fifteenrow div p:hover{
+    color: orange;
+}
+#footerlink a:hover{
+    color: orange;
+}
+hr{
+    color: orange;
+    width: 50%;
+}
+#fourteenrow{
+    margin: 100px;
+    height: 400px;
+}

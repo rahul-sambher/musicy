@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of this functions in javascript</title>
+</head>
+<body>
+    <label for="">Enter 1st no</label>
+    <input type="text" name="" id="first">
+    <label for="">Enter 2nd no</label>
+    <input type="text" name="" id="second">
+    <button onclick="cal(this.innerHTML)">Add</button>
+    <button onclick="cal(this.innerHTML)">Sub</button>
+    <button onclick="cal(this.innerHTML)">Mul</button>
+    <button onclick="cal(this.innerHTML)">Div</button>
+    <h3 id="result"></h3>
+    <script>
+        function cal(x){
+            var a=document.getElementById("first").value;
+            var b=document.getElementById("second").value;
+
+            if(x=='Add'){
+                var c=Number(a)+Number(b);
+            }else if(x=='Sub'){
+                var c=a-b;
+            }else if(x=='Mul'){
+                var c=a*b;
+            }else if(x=='Div'){
+                var c=a/b;
+            }else{
+                alert('error');
+            }
+
+            document.getElementById('result').innerHTML=x+' of '+a+' and '+b+' is '+c;
+        }
+    </script>
+</body>
+</html>
